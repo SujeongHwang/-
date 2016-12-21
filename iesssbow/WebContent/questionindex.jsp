@@ -11,8 +11,8 @@
 		<link rel="stylesheet" href="${ctx }/css/zuiyn.css">
 		<link rel="stylesheet" href="${ctx }/css/ayangshiyn.css">
 		<link rel="stylesheet" href="${ctx }/css/pgwmenuyn.css">
-    <link rel="stylesheet" href="${ctx }/css/dilanyn.css">
-    <link rel="stylesheet" href="${ctx }/css/zhonglan.css">
+    	<link rel="stylesheet" href="${ctx }/css/dilanyn.css">
+    	<link rel="stylesheet" href="${ctx }/css/zhonglan.css">
 		<link rel="stylesheet" type="text/css" href="${ctx }/css/menuyn.css" media="all"/>
 
   
@@ -92,7 +92,6 @@
 
 
 <!--底栏菜单-->
-<!--底栏菜单-->
 <div class="nav4">
     <div id="nav4_ul" class="nav_4">
       <ul class="box">
@@ -110,20 +109,9 @@
         </li>
       </ul>
     </div>
-  
-  
  <div id="nav4_masklayer" class="masklayer_div on">&nbsp;</div>
-
 </div>
 
-<script type="text/javascript" src="${ctx }/js/jquery.1.7.2.min.js"></script>
-<script type="text/javascript" src="${ctx }/js/navfix.js"></script>
-<script type="text/javascript">
-$(document).ready(function(e) {
- $('#mynav').navfix(0,999);    
-});
-//第一个值： 你期望导航在距离顶部多少的位置浮动
-//第二个值： 导航zindex
-</script>
+
 	</body>
 </html>

@@ -57,8 +57,9 @@ span{
 }
 .nav4 li>a>img{
 	display:block; margin:0 auto;
-	padding-top: 3px;
+	padding-top: -3px;
 	background-color: white;
 	height: 20px;
+	
 }
 
