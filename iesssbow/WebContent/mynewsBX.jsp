@@ -38,10 +38,10 @@
       <div class="item-heading">
         
         <h4>${p.biaoTi }</h4>
-        <div ><span class="text-muted">${p.time}</span> </div>
+        <div class="pull-right"><span class="text-muted">${p.time}</span> </div>
       </div>
       <div class="item-content">
-        <div style="max-height:100px; overflow:hidden"class="text">${p.neiRong}</div>
+        <div class="text">${p.neiRong }</div>
       </div>
     </div>
     </a>

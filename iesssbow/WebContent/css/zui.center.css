@@ -905,7 +905,7 @@ textarea {
   line-height: inherit;
   }
 a {
-  color: #000000;
+  color: #145ccd;
   text-decoration: none;
   -webkit-transition: all .4s cubic-bezier(.175, .885, .32, 1);
        -o-transition: all .4s cubic-bezier(.175, .885, .32, 1);
@@ -913,7 +913,7 @@ a {
   }
 a:hover,
 a:focus {
-  color: #000000;
+  color: #0d3d88;
   text-decoration: underline;
   }
 a:focus {
@@ -7939,7 +7939,7 @@ body.article-content {
   padding: 20px;
   }
 .list-condensed {
-  padding:0px;
+  padding:20px;
   }
 .list-condensed > header,
 .list-condensed > footer,

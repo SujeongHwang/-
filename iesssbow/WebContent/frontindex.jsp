@@ -148,16 +148,16 @@
 
 <!--低栏菜单-->
 
-<div class="nav4" >
+<div class="nav4">
     <div id="nav4_ul" class="nav_4">
       <ul class="box">
         <li>
         <a href="#"><img src="${ctx }/images/06.png"><span>新闻首页</span> </a>
         </li>
-        <li>
-        <a href=""><img src="${ctx }/images/08.png"><span>信息填写</span></a>
+        <li onclick="javascript:window.alter('尚在开发，敬请期待')">
+        <a href=""><img src="${ctx }/images/08.png">信息填写</a>
         </li>
-        <li>
+        <li onclick="javascript:window.alter('尚在开发，敬请期待')">
         <a href="/iesssbow/ynjd/index"><img src="${ctx }/images/04.png"><span>疑难解答</span></a>
         </li>
           <li>

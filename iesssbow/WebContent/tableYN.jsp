@@ -14,9 +14,8 @@ tableYN.jsptableYN.jsp<%@ page language="java" contentType="text/html; charset=U
         <link type="text/css" rel="stylesheet" href="min/b=CoreAdmin&f=css/reset.css,css/style.css,css/jqueryui/jqueryui.css,js/jwysiwyg/jquery.wysiwyg.old-school.css,js/zoombox/zoombox.css" />
         <script type="text/javascript" src="min/b=CoreAdmin/js&f=cookie/jquery.cookie.js,jwysiwyg/jquery.wysiwyg.js,tooltipsy.min.js,iphone-style-checkboxes.js,excanvas.js,zoombox/zoombox.js,visualize.jQuery.js,jquery.uniform.min.js,main.js"></script>
         -->
-        
-        <script type="text/javascript" src="${ctx}/js/min.js"></script>
         <link rel="stylesheet" href="${ctx}/css/min.css" />
+        <script type="text/javascript" src="${ctx}/js/min.js"></script>
     </head>
     <body>
         <script type="text/javascript" src="${ctx}/content/settings/main.js"></script>
@@ -130,17 +129,17 @@ tableYN.jsptableYN.jsp<%@ page language="java" contentType="text/html; charset=U
             <thead>
                 <tr>
                     <th>问题</th>
-                    <th  style="width:400px;">答案</th>
-                    <th style="text-align:right;">类型</th>
+                    <th>答案</th>
+                    <th>类型</th>
                     <th style="text-align:right;">编辑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
                 </tr>
             </thead>
             <tbody>
 				<c:forEach items="${page.list}" var="p">
-					<tr  style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+					<tr>
 						<td>${p.question}</td>
-						<td style="width:400px;">${p.answer} </td>
-						<td style="text-align:right;">${p.leiXing}</td>
+						<td>${p.answer} </td>
+						<td>${p.leiXing}</td>
 						<td style="text-align:right;"><input type="hidden" name="id_YN" value="${p.id_YN}"/><input type="hidden" name="leiXing" value="${p.leiXing}"/>
 						<a href="${ctx }/ynjd/edit?id_YN=${p.id_YN}"><img style="border: 1px sold #ccc; padding-left:20px;padding-right:45px;" src="${ctx }/img/icons/actions/edit.png"/></a>
 						<a href="${ctx }/ynjd/delete?id_YN=${p.id_YN}&leiXing=${p.leiXing}"><img src="${ctx }/img/icons/actions/delete.png"/></a>				

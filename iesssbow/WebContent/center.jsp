@@ -12,9 +12,8 @@
     <!-- zui -->
     <link href="${ctx }/css/zhongxin.css" rel="stylesheet">
     <link rel="stylesheet" href="css/dilan.center.css">
-    
     <script src="${ctx }/js/jquery.mobile-1.4.5.min.js"></script>
-    
+
   </head>
 
   <body>
@@ -53,23 +52,34 @@
 
   <!--底栏菜单-->
 <div class="nav4">
+
+  
     <div id="nav4_ul" class="nav_4">
-      <ul class="box">        
-        <li>       
-        <a href="${ctx }/news/list_qtqb"><img src="${ctx }/images/02.png"><span>新闻首页</span> </a>
-        </li>       
+      <ul class="box">
+        
         <li>
-        <a href=""><img src="${ctx }/images/08.png">信息填写</a>         
+        
+        <a href="${ctx }/news/list_qtqb"><img src="${ctx }/images/02.png"><span>新闻首页</span> </a>
+        </li>
+        
+        <li>
+        <a href=""><img src="${ctx }/images/08.png">信息填写</a>
+          
         </li>
         <li>
-        <a href="/iesssbow/ynjd/index"><img src="${ctx }/images/04.png"><span>疑难解答</span></a>          
+        <a href="/iesssbow/ynjd/index"><img src="${ctx }/images/04.png"><span>疑难解答</span></a>
+          
         </li>
           <li>
-          <a href="#"><img src="${ctx }/images/05.png"><span>个人中心</span></a>          
+          <a href="#"><img src="${ctx }/images/05.png"><span>个人中心</span></a>
+          
         </li>
       </ul>
-    </div>   
+    </div>
+  
+  
   <div id="nav4_masklayer" class="masklayer_div on">&nbsp;</div>
+
 </div>
 
     <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
